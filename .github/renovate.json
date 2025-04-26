@@ -8,10 +8,13 @@
   "rangeStrategy": "widen",
   "packageRules": [
     {
-      "depTypeList": [
+      "matchDepTypes": [
         "dev-dependencies"
       ],
       "rangeStrategy": "pin"
     }
-  ]
+  ],
+  "lockFileMaintenance": {
+    "automerge": true
+  }
 }
